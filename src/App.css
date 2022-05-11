@@ -78,6 +78,7 @@
 
 .product {
     display: flex;
+    min-height: 42px;
 }
 
 .productItem {
@@ -121,7 +122,7 @@
     min-width: 150px;
 }
 .product-hover:hover{
-    background-color: #223ecc;
+    background-color: #eaeaea;
 
 }
 
@@ -186,4 +187,12 @@
 
 .section_wrap-item:nth-child(4) {
     min-width: 22px;
+}
+.product-search {
+    display: flex;
+}
+.product-search-btn {
+    border: 1px solid rgba(0,66,105,0.28) !important;
+    color: rgba(0,66,105,0.28) !important;
+    border-left: none !important;
 }

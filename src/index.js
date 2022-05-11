@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import {store} from "./store";
+import {Theme, presetGpnDefault} from '@consta/uikit/Theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Provider store={store}>
+          <Theme preset={presetGpnDefault}>
           <App />
+          </Theme>
       </Provider>
   </React.StrictMode>
 );

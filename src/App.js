@@ -1,24 +1,26 @@
 import './App.css';
 import {ProductsList} from "./components/ProductList/ProductsList";
-import {Theme, presetGpnDefault} from '@consta/uikit/Theme';
 import {ProductCalendar} from "./components/ProductList/ProductCalendar/ProductCalendar";
 import {ProductOptions} from "./components/ProductList/ProductOptions/ProductOptions";
 import {ProductTitle} from "./components/ProductList/ProductTitle/ProductTitle";
+import {useState} from "react";
+import {Test1} from "./components/ProductList/test";
 
 function App() {
-
+    const [value, setValue] = useState("Lorem");
+    const handleChange = ({value}: { value: string | null }) => setValue(value);
 
     return (
-        <Theme preset={presetGpnDefault}>
+
             <div className="App">
                 <div className="form-wrap">
-                    <ProductTitle />
+                    <ProductTitle productName={value}/>
                     <ProductCalendar />
-                    <ProductOptions />
+                    <ProductOptions handleChange={handleChange} value={value} setValue={setValue}/>
                     <ProductsList/>
                 </div>
             </div>
-        </Theme>
+
     );
 }
 

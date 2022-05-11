@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {ComboboxZoneType} from "../components/ProductList/ProductOptions/ComboboxZoneType";
+
 
 const productsSlice = createSlice({
     name: 'products',

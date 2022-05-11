@@ -1,5 +1,4 @@
 import {useDispatch, useSelector} from "react-redux";
-import s from './ProductsList.module.css';
 import {Product} from "./Product/Product";
 import {addProduct, deleteProduct} from "../../store/formSlice";
 import {useState, useEffect} from "react";
