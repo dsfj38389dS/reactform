@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import {ProductsList} from "./components/ProductList/ProductsList";
+import {Theme, presetGpnDefault} from '@consta/uikit/Theme';
+import {ProductCalendar} from "./components/ProductList/ProductCalendar/ProductCalendar";
+import {ProductOptions} from "./components/ProductList/ProductOptions/ProductOptions";
+import {ProductTitle} from "./components/ProductList/ProductTitle/ProductTitle";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+    return (
+        <Theme preset={presetGpnDefault}>
+            <div className="App">
+                <div className="form-wrap">
+                    <ProductTitle />
+                    <ProductCalendar />
+                    <ProductOptions />
+                    <ProductsList/>
+                </div>
+            </div>
+        </Theme>
+    );
 }
 
 export default App;

@@ -1,0 +1,102 @@
+
+/*.product {*/
+/*    display: flex;*/
+/*    text-align: left;*/
+/*}*/
+/*.product div {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.productItem {*/
+/*    border-bottom: 1px solid #bbbbbd;*/
+/*    height: 40px;*/
+
+/*}*/
+/*.productItem:not(:last-child) {*/
+/*    border-right:  1px solid #bbbbbd;*/
+/*}*/
+/*.product div:nth-child(1) {*/
+/*    min-width: 30px;*/
+/*}*/
+/*.product div:nth-child(2) {*/
+/*    min-width: 160px;*/
+/*}*/
+/*.product div:nth-child(3) {*/
+/*    min-width: 160px;*/
+/*}*/
+/*.product div:nth-child(4) {*/
+/*    min-width: 280px;*/
+/*    width: 100%;*/
+/*}*/
+/*.product div:nth-child(5) {*/
+/*    min-width: 140px;*/
+/*}*/
+/*.product div:nth-child(6) {*/
+/*    min-width: 30px;*/
+/*}*/
+/*.product input {*/
+/*    padding: 0;*/
+/*    border: none;*/
+/*    border-bottom: 1px solid #bbbbbd;*/
+/*    background-color:  rgb(169 175 195 / 29%);*/
+/*    outline:none;*/
+/*}*/
+/*.product input:not(:last-child) {*/
+/*    border-right:  1px solid #bbbbbd;*/
+/*}*/
+/*.product input:nth-child(1) {*/
+/*   width: 30px;*/
+/*}*/
+/*.product input:nth-child(2) {*/
+/*    width: 160px;*/
+/*}*/
+/*.product input:nth-child(3) {*/
+/*    width: 160px;*/
+/*}*/
+/*.product input:nth-child(4) {*/
+/*    min-width: 280px;*/
+/*    width: 100%;*/
+
+/*}*/
+/*.product input:nth-child(5) {*/
+/*    width: 140px;*/
+/*}*/
+/*.product input:nth-child(6) {*/
+/*   width: 30px;*/
+/*}*/
+
+/*.product {*/
+/*    display: flex;*/
+/*}*/
+/*.productItem {*/
+/*    border: 1px solid #acacb0;*/
+/*    padding: 0 4px;*/
+/*    word-wrap: break-word;*/
+/*    text-align: left;*/
+/*}*/
+/*.productItem:nth-child(1) {*/
+/*    width: 30px;*/
+/*    min-width: 30px;*/
+/*}*/
+/*.productItem:nth-child(2) {*/
+/*    width: 150px;*/
+/*    min-width: 150px;*/
+
+/*}*/
+/*.productItem:nth-child(3) {*/
+/*    width: 150px;*/
+/*    min-width: 150px;*/
+
+/*}*/
+/*.productItem:nth-child(4) {*/
+/*    width:100%;*/
+/*    min-width: 150px;*/
+/*}*/
+/*.productItem:nth-child(5) {*/
+/*    width: 150px;*/
+/*    min-width: 150px;*/
+/*}*/
+/*.productItem:nth-child(6) {*/
+
+/*    min-width: 22px;*/
+/*}*/

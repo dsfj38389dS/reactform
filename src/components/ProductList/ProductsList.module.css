@@ -1,0 +1,47 @@
+/*.productsList {*/
+/*margin-top: 20px;*/
+/*}*/
+
+/*.productsListInfo {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 4fr 4fr 14fr 4fr 1fr;*/
+/*    grid-template-rows: 38px 38px;*/
+/*    grid-template-areas:*/
+/*      "Info0 Info1 Info2 Info2 Info2 Info6"*/
+/*      "Info0 Info1  Info3 Info4 Info5 Info7";*/
+/*    font-size: 20px;*/
+/*    color: #3871dc;*/
+/*    font-weight: 600;*/
+/*}*/
+/*.productsListInfo div{*/
+/*    border-bottom: 1px solid rgba(0, 66, 105, 0.2);*/
+/*}*/
+
+/*.productsListInfo div:not(:nth-child(3),:nth-child(6),:nth-child(7),:last-child){*/
+/*    border-right: 1px solid rgba(0, 66, 105, 0.2);*/
+/*}*/
+/*.Info0 {*/
+/*    grid-area: Info0 ;*/
+/*}*/
+/*.Info1 {*/
+/*    grid-area: Info1 ;*/
+/*}*/
+/*.Info2 {*/
+/*    grid-area: Info2 ;*/
+/*}*/
+/*.Info3 {*/
+/*    grid-area: Info3 ;*/
+/*}*/
+/*.Info4 {*/
+/*    grid-area: Info4 ;*/
+/*}*/
+/*.Info5 {*/
+/*    grid-area: Info5 ;*/
+/*}*/
+/*.Info6 {*/
+/*    grid-area: Info6 ;*/
+/*}*/
+/*.Info7 {*/
+/*    grid-area: Info7 ;*/
+/*}*/
+
